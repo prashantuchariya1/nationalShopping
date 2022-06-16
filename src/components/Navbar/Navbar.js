@@ -9,18 +9,18 @@ export default function Navbar() {
       <div className={style.childNavbar}>
         <div className={style.logo}>National Shopping</div>
         <div className={style.navMenu}>
-          <div className={style.menuItem}><a href="#">Home</a> </div>
-          <div className={style.menuItem}><a href="#">Mens</a></div>
-          <div className={style.menuItem}><a href="#">Womens</a></div>
-          <div className={style.menuItem}><a href="#">Baby Collection</a></div>
+          <div className={style.menuItem}><a href="#" id={style.menuItemAnchor}>Home</a> </div>
+          <div className={style.menuItem}><a href="#" id={style.menuItemAnchor}>Mens</a></div>
+          <div className={style.menuItem}><a href="#" id={style.menuItemAnchor}>Womens</a></div>
+          <div className={style.menuItem}><a href="#" id={style.menuItemAnchor}>Baby Collection</a></div>
         </div>
         <div className={style.search}>
           <input type="text" placeholder="Search National.in" />
           <button><FcSearch/></button>
         </div>
         <div className={style.socialLogo}>
-          <div className={style.socialLogoChild}><a href="#"><RiAdminFill/></a></div>
-          <div className={style.socialLogoChild}><a href="#"><FaCartArrowDown/></a></div>
+          <div className={style.socialLogoChild}><a href="#"><RiAdminFill size={25}/></a></div>
+          <div className={style.socialLogoChild}><a href="#"><FaCartArrowDown size={25}/></a></div>
         </div>
       </div>
     </div>
