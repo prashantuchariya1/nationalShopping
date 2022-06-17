@@ -1,0 +1,25 @@
+.childUpperFooter {
+  height: 200px;
+  background-color: rgb(237, 236, 236);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.feature {
+  
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.upperText{
+font-size: medium;
+margin-bottom: 3px;
+}
+
+.lowerText{
+font-size: small;
+}
