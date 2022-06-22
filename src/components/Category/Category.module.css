@@ -1,0 +1,24 @@
+
+.childCategory{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ffd494;
+    width: 100%;
+    height: 80px;
+    
+}
+
+.topText{
+    font-size: 20px;
+    /* padding-bottom: 6px; */
+    margin: 0px;
+    
+}
+
+.bottomText{
+    font-size: 10px;
+    margin: 0px;
+    padding-bottom: 15px;
+}

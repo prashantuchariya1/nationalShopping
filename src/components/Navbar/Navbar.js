@@ -6,7 +6,7 @@ import {FaCartArrowDown} from "react-icons/fa";
 
 export default function Navbar() {
   const styleIcons = { color: "black", fontSize: "1.5em" }
-  const styleIconsSearch = { fontSize: "1.5 em" }
+  const styleIconsSearch = { fontSize: "6 em" }
   return (
     <div className={style.navbar}>
       <div className={style.childNavbar}>

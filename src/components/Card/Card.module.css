@@ -1,0 +1,107 @@
+.childCard {
+}
+
+.CartTop {
+  overflow: hidden;
+
+  height: 200px;
+  width: 200px;
+}
+.CartTop:hover .ProductButtons {
+  opacity: 1;
+  
+}
+
+.ProductImage {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+
+  overflow: hidden;
+}
+.image {
+  position: relative;
+  top: -35px;
+  transition: transform 0.4s;
+}
+
+.image:hover {
+  transform: scale(1.2);
+}
+.ProductButtons {
+  background-color: white;
+  height: 35px;
+  width: 70px;
+  position: relative;
+  top: 150px;
+  left: 70px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  z-index: 5;
+  opacity: 0;
+}
+
+.ALogo {
+  width: 100%;
+  height: 100%;
+  
+  
+}
+.ALogo:hover {
+  background-color: orange;
+}
+.BLogo {
+  width: 100%;
+  height: 100%;
+  
+  
+}
+.BLogo:hover {
+  background-color: orange;
+}
+
+.ChildBottom {
+  width: 200px;
+  height: 70px;
+  
+}
+
+.MainPrise {
+  display: inline-block;
+  
+}
+
+.MainPrise > p {
+  font-size: 12px;
+  color: orange;
+  text-decoration: line-through;
+  padding-right: 20px;
+  padding-left: 30px;
+  
+}
+
+.DiscountPrise {
+  display: inline-block;
+  
+}
+.DiscountPrise > p {
+  font-size: 12px;
+  color: red;
+  padding-left: 30px;
+}
+
+.productName {
+  
+}
+
+.productName > p {
+  margin: 0px;
+  color: black;
+  font-size: 11px;
+  font-weight: 600;
+  word-spacing: 1px;
+  margin-top: 5px;
+  
+}
