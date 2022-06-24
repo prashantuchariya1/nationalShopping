@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import style from "./Navbar.module.css";
 import {FcSearch} from  "react-icons/fc";
 import {RiAdminLine} from "react-icons/ri";
@@ -7,6 +7,7 @@ import {BsCart3} from "react-icons/bs";
 export default function Navbar() {
   const styleIcons = { color: "black", fontSize: "1.2em" }
   const styleIconsSearch = { fontSize: "6 em" }
+  
   return (
     <div className={style.navbar}>
       <div className={style.childNavbar}>

@@ -30,10 +30,22 @@
   height: 4px;
   margin: 3px 0;
   background-color: #737373;
+  transition: 0.4s;
 
 }
 .hamburger{
     margin-right: 37px;
+
+}
+.bar1{
+  
+
+}
+.bar2{
+
+}
+.bar3{
+
 }
 
 .icon{
@@ -52,10 +64,16 @@
   }
 
 
+  
+  
   .iphoneMenu{
-      /* background-color: blue; */
       
       
+      
+  }
+
+  .iphoneMenuHide{
+    display: none;
   }
   .iphoneMenuContainer{
     display: flex;
