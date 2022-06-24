@@ -111,3 +111,24 @@ hr{
   width: 100px;
   
 }
+
+@media only screen and (max-width: 747px) {
+ 
+
+  .emailInput {
+    width: 150px;
+    
+    
+    
+  }
+}
+@media only screen and (max-width: 879px) {
+ 
+
+  .emailInput {
+    width: 200px;
+    
+    
+    
+  }
+}

@@ -5,6 +5,11 @@
 .navbar {
   padding: 0 5%;
 }
+@media only screen and (max-width: 377px) {
+  .navbar {
+    display: none;
+  }
+}
 .childNavbar {
   height: 50px;
   width: 100%;
