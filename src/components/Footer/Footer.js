@@ -48,6 +48,8 @@ export default function Footer() {
               <li>Casual</li>
             </ul>
           </div>
+          <div className={style.break}></div>
+         
           <div className={style.QuickLinks}>
             <ul>
               <li className={style.liFirstElement}>Shop Men </li>

@@ -14,9 +14,9 @@ export default function NavbarIphone() {
     <div className={style.siteNavbar}>
         <div className={style.container}>
             <div className={style.hamburger}  onClick={()=>setShow(prev => !prev)}>
-                <div className={style.bar1} style={{transform:show? "rotate(-45deg) translate(-9px, 6px)": "none" }}></div>
+                <div className={style.bar1} style={{transform:show? "rotate(-45deg) translate(-8px, 3px)": "none" }}></div>
                 <div className={style.bar2} style={{opacity: show? "0":"1"}}></div>
-                <div className={style.bar3} style={{transform:show? "rotate(45deg) translate(-8px, -8px)": "none" }}></div>
+                <div className={style.bar3} style={{transform:show? "rotate(45deg) translate(-8px, -3px)": "none" }}></div>
             </div>
             <div className={style.icon}><p>National Shopping</p> </div>
             <div className={style.SocialmediaIcon}>
