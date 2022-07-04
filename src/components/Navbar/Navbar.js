@@ -13,7 +13,7 @@ export default function Navbar() {
       <div className={style.childNavbar}>
         <div className={style.logo}>National Shopping</div>
         <div className={style.navMenu}>
-          <div className={style.menuItem}><a href="#" className={style.menuItemAnchor}>Home</a> </div>
+          <div className={style.menuItem}><a href="#" className={style.menuItemAnchor}>Home1</a> </div>
           <div className={style.menuItem}><a href="#" className={style.menuItemAnchor}>Mens</a></div>
           <div className={style.menuItem}><a href="#" className={style.menuItemAnchor}>Womens</a></div>
           <div className={style.menuItem}><a href="#" className={style.menuItemAnchor}>Baby Collection</a></div>
