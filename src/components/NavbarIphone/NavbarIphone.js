@@ -3,7 +3,7 @@ import style from './NavbarIphone.module.css'
 import {RiAdminLine} from "react-icons/ri";
 import {BsCart3} from "react-icons/bs";
 import {IoSearch} from "react-icons/io5";
-import classNames from 'classnames';
+
 
 export default function NavbarIphone() {
     const styleIcons = { color: "#737373", fontSize: "1.2em" }
