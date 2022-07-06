@@ -3,6 +3,7 @@ import style from "./Navbar.module.css";
 import {FcSearch} from  "react-icons/fc";
 import {RiAdminLine} from "react-icons/ri";
 import {BsCart3} from "react-icons/bs";
+import { Link} from "react-router-dom";
 
 export default function Navbar() {
   const styleIcons = { color: "black", fontSize: "1.2em" }
@@ -23,10 +24,20 @@ export default function Navbar() {
           <button className={style.navButton}><FcSearch style={styleIconsSearch}/></button>
         </div>
         <div className={style.socialLogo}>
-          <div className={style.socialLogoChild}><a href="#"><RiAdminLine style={styleIcons}/></a></div>
+         
+         <div className={style.socialLogoChild}><a href="#"><RiAdminLine style={styleIcons}/></a></div> 
+         
+
+
+         <Link to="/cart"> 
           <div className={style.socialLogoChild}><a href="#"><BsCart3  style={styleIcons}/></a></div>
+         </Link>
+          
+
+
         </div>
       </div>
+      
     </div>
   );
 }

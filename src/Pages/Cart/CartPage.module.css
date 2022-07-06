@@ -1,0 +1,14 @@
+.backgroundDiv{
+    background-color: #ececec;
+    width: 100%;
+    
+}
+
+
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}

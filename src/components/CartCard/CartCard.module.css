@@ -1,0 +1,47 @@
+.CartCardContainer{
+    border: 1px solid rgb(115, 115, 115);
+    max-width: 720px;
+    background-color: white;
+    margin: 6px 0px;
+    /* margin-right: 150px ; */
+}
+.CartCardContent{
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
+    
+}
+
+.productImage{
+    /* max-width: 230px; */
+    
+    
+
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 16px;
+}
+.name{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.prise, .quantity, .subtotal{
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+
+.deleteButton{
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    width: 60px;
+    height: 25px;
+}

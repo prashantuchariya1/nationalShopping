@@ -1,13 +1,15 @@
 .offerbar{
     
-
+    
 }
 .offerbarChild{
+    background-color: black;
+    min-height: 1.6rem;
     display: flex;
     flex-direction: row;
-    background-color: black;
     align-items: center;
     justify-content: center;
+    text-align: center;
     
     flex-wrap: wrap;
 
@@ -17,14 +19,14 @@
 .text{
     color: white;
     margin-right: 5px;
-    font-size: 10px;
+    font-size: 0.72rem;
     
     
 }
 
 .clickhere{
     color: red;
-    font-size: 10px;
+    font-size: 0.72rem;
     
 
 }
