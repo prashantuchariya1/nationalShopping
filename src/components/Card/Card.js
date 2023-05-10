@@ -23,7 +23,7 @@ export default function Card() {
             </div>
           </div>
           <div className={style.image}>
-            <img src="https://source.unsplash.com/random/200x200" alt="" />
+            <img src="https://picsum.photos/id/445/200/200" alt="" />
           </div>
           
         </div>
